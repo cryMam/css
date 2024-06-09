@@ -1,0 +1,37 @@
+.uploadLabel {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.uploadInput {
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+}
+
+.attachedBox {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 7px;
+  padding: 5px;
+}
+
+.attachedFile {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  background-color: var(--axis-background);
+  padding: 3px 7px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px var(--disable-color);
+  width: fit-content;
+}
+
+.attachedDeleteIcon {
+  font-size: 18px;
+  color: var(--error-color);
+  cursor: pointer;
+  margin-left: 5px;
+}
